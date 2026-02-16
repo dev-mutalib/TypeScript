@@ -1,6 +1,6 @@
 /**
  * Union types in TypeScript
- * 
+ *
  * Union types allow a variable to hold values of multiple types.
  * The pipe symbol (|) is used to define a union type.
  * In the example below, the variable `subscribers` can hold either a number or a string.
@@ -16,7 +16,7 @@ airlineSeat = 'aisle';
 const orders = ['12', '20', '28', '42'];
 
 /**Using union type to allow variable to be string or undefined
- * 
+ *
  * In the example below, the variable `currentOrder` is declared with a union type of `string | undefined`.
  * This means that `currentOrder` can either hold a string value or be undefined.
  * This is useful in scenarios where a variable may not have a value assigned initially.
@@ -31,7 +31,6 @@ for (const order of orders) {
   }
 }
 console.log(currentOrder);
-
 
 /* Any type in TypeScript
  * The `any` type is the most permissive type in TypeScript. A variable of type `any` can hold values of any type,
